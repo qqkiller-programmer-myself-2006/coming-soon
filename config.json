@@ -1,0 +1,35 @@
+{
+  "site": {
+    "titleTh": "กำลังจะมา...",
+    "titleEn": "Coming Soon...",
+    "subtitleTh": "บางสิ่งสวยงามกำลังสร้าง",
+    "subtitleEn": "Something beautiful is being built",
+    "descriptionTh": "กรอก Email เพื่อรับแจ้งเตือนก่อนใคร",
+    "descriptionEn": "Enter your email to be notified first"
+  },
+  "countdown": {
+    "targetDate": "2025-12-31T00:00:00",
+    "timezone": "Asia/Bangkok"
+  },
+  "email": {
+    "placeholderTh": "your@email.com",
+    "placeholderEn": "your@email.com",
+    "buttonTh": "แจ้งฉันก่อนใคร",
+    "buttonEn": "Notify Me First",
+    "successTh": "ขอบคุณ! เราจะแจ้งคุณเร็วๆ นี้ 🎉",
+    "successEn": "Thank you! We'll notify you soon 🎉"
+  },
+  "theme": {
+    "gradientFrom": "#0f0c29",
+    "gradientVia": "#302b63",
+    "gradientTo": "#24243e",
+    "accentColor": "#a78bfa",
+    "textColor": "#f8fafc"
+  },
+  "social": [
+    {
+      "platform": "github",
+      "url": "https://github.com/qqkiller-programmer-myself-2006"
+    }
+  ]
+}
