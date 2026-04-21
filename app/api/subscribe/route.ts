@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { z } from "zod";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const getResend = () => new Resend(process.env.RESEND_API_KEY ?? "placeholder");
 
 const schema = z.object({
   email: z.string().email("Invalid email format"),
@@ -12,6 +12,7 @@ export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
     const { email } = schema.parse(body);
+    const resend = getResend();
 
     // 1. แจ้งเจ้าของ
     await resend.emails.send({
